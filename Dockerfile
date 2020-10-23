@@ -1,4 +1,4 @@
-FROM python:3.6.1-alpine
+DE python: 3.6.1-alpine
 RUN pip install flask
-COPY fibo.py /fibo.py
-CMD ["python","fibo.py"]
+COPIAR fibonacci.py /fibonacci.py
+CMD [ "python" , "fibonacci.py" ]
